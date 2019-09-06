@@ -1,0 +1,20 @@
+.card {
+    background: rgb(241, 241, 241);
+    border-radius: .5rem;
+    height: 1rem;
+    margin: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    width: 270px;
+    box-shadow: 0 3px 6px rgb(119, 119, 119), 0 3px 6px rgb(119, 119, 119);
+    overflow: hidden;
+  }
+  
+  /* Slide */
+   .hover img {
+      margin-left: 10px;
+  }
+  .hover img:hover  {
+      margin-left: -30px;
+  
+  }
