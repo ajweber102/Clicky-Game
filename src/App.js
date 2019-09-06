@@ -20,7 +20,7 @@ class App extends Component {
     let clickedImageIds = this.state.clickedImageIds;
 
     if(clickedImageIds.includes(id)){
-      this.setState({ clickedImageIds: [], score: 0, status:  "Game Over! You lost. Click to play again!" });
+      this.setState({ clickedImageIds: [], score: 0, status:  "You lost! Bummer, friend. Click to play again." });
       return;
     }else{
       clickedImageIds.push(id)
@@ -47,7 +47,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Clicky McClickerson Game</h1>
           <p className="App-intro">
-            Woah Ho! Don't click the same image twice or you loose my dude!
+            Woah Ho! Don't click the same image twice or you loose, my dude!
           </p>
         </header>
         <Score total={this.state.score}
