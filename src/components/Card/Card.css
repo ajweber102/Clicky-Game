@@ -1,8 +1,8 @@
 .card {
     background: rgb(241, 241, 241);
     border-radius: .5rem;
-    height: 1rem;
-    margin: 1rem;
+    height: 5rem;
+    margin: 5rem;
     margin-top: 1rem;
     position: relative;
     width: 270px;
@@ -11,10 +11,12 @@
   }
   
   /* Slide */
-   .hover img {
-      margin-left: 10px;
-  }
-  .hover img:hover  {
-      margin-left: -30px;
   
+  .img-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  img {
+      width: 20rem;
+      height: 20rem;
   }

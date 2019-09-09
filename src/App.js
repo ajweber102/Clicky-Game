@@ -46,8 +46,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Clicky McClickerson Game</h1>
-          <p className="App-intro">
-            Woah Ho! Don't click the same image twice or you loose, my dude!
+          <p>
+            Don't click the same image twice or you loose, my dude!
           </p>
         </header>
         <Score total={this.state.score}
@@ -65,7 +65,7 @@ class App extends Component {
           ))}
         </Wrapper>
         <footer>
-          <p>Built by A.J. Weber<a href="https://github.com/ajweber102/Clicky-Game" target="_blank" rel="noopener noreferrer">Check out the repo</a>.</p>
+          <p>Built by A.J. Weber - <a href="https://github.com/ajweber102/Clicky-Game" target="_blank" rel="noopener noreferrer">Check out the repo</a>.</p>
         </footer>
     </div>
     );
